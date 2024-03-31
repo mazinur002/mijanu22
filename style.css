@@ -1,0 +1,22 @@
+.bag{
+    background: red;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 5px;
+    text-align: right;
+    border-radius: 5px 20px 20px 5px;
+    transform: translate(-160px);
+    transition: .5s;
+}
+.bag span{
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.bag:hover{
+    transform: translate(-80px);
+}
